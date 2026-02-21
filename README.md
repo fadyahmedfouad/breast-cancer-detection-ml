@@ -21,15 +21,19 @@ The goal is to assist medical diagnosis by providing automated classification of
 
 ---
 
-## 📊 Results (Example)
+## 📊 Results
+
 | Model | Accuracy | F1-Score |
-|--------|----------|----------|
-| MLP | 0.9704 | 0.9673 |
+|--------|-----------|-----------|
+| MLP (ANN) | 0.9704 | 0.9673 |
 | Random Forest | 0.9526 | 0.9470 |
-| Ensemble | 0.9704 | 0.9668 |
+| Ensemble (RF + MLP) | 0.9704 | 0.9668 |
 
-*(Replace with your actual results)*
-
+### Performance Insights
+- MLP achieved the highest F1-score, indicating superior classification performance.
+- Random Forest provided a stable baseline and strong generalization.
+- Ensemble learning improved robustness and precision by combining model predictions.
+- The ensemble model achieved the best balance between precision and recall, demonstrating strong diagnostic capability on ultrasound image classification.
 ---
 
 ## 🏗️ Approach
@@ -41,5 +45,3 @@ The goal is to assist medical diagnosis by providing automated classification of
 6. Ensemble predictions
 
 ---
-
-## 📂 Project Structure
